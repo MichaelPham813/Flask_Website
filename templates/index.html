@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Heroic Features - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/static/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="/">Duc Pham website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/weather">Weather</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bmi">BMI Calculator</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/ISS_Location">ISS location</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-5">
+             <!--This is for the effect-->
+             <!--Had to use z-index: -1 because it interfere with the website-->
+            <div id="ambient" style="overflow:hidden; position:absolute; width:100%; height:100vh; z-index: -1;"></div>
+            <div class="container px-lg-5" id = "div_container">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center" id = "div_container_2">
+                    <div class="m-4 m-lg-5">      
+                        <h1 class="display-5 fw-bold">Welcome to my Website</h1>
+                        <p class="fs-4">Hello my name is Duc, and i learn alot about game development and web development. I also love to explore new technology and learn new things
+                            , and i'm also an aspiring Data analyst studying Business Analytics at Cambrian College, hopefully i could get a job in the future as a Data analyst</p>
+                        <a class="btn btn-primary btn-sm h-25 w-50" href="https://www.linkedin.com/in/duc-thien-pham-66056b260/" alt="Click here for my linkedin"><img class = "img-thumbnail img-responsive" src="static/img/profile_pic.jpg"></a>
+                    </div>
+                    <div class="d-flex flex-column text-center" id="map_container">
+                            
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Page Content-->
+        <section class="pt-4">
+            <div id="ambient" style="overflow:hidden; position:absolute; width:100%; height:100vh; z-index: -1;"></div>
+            <div class="container px-lg-5">
+                <!-- Page Features-->
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
+                                <h2 class="fs-4 fw-bold">Team Fortress 2</h2>
+                                <p class="mb-0">The game i played alot with friends either casually or competitively</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-cloud-download"></i></div>
+                                <h2 class="fs-4 fw-bold">Coffee</h2>
+                                <p class="mb-0">Liquid things that help me start the day without feeling tired or fatigue.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
+                                <h2 class="fs-4 fw-bold">Visual Studio Code</h2>
+                                <p class="mb-0">A text editor that i use for programming both for web development and game development.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
+                                <h2 class="fs-4 fw-bold">Tom Collins</h2>
+                                <p class="mb-0">My favorite cocktails that help me relax after a long day of work.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
+                                <h2 class="fs-4 fw-bold">Game development</h2>
+                                <p class="mb-0">I love making video games, most of the knowledge i learn are self-taught and i got 2 small games up on itch.io</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-patch-check"></i></div>
+                                <h2 class="fs-4 fw-bold">Wep Development</h2>
+                                <p class="mb-0">I also self-learn web development abit, and i also host it on github pages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Duc Pham 2024</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Effect JS-->
+        <script src = "static/bvambiant/js/bvambient.js"></script>
+        <!-- Core theme JS-->
+        <script src="static/script.js"></script>
+        <!-- Jquery for AJAX-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Heroic Features - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/static/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="/">Duc Pham website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/weather">Weather</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bmi">BMI Calculator</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/ISS_Location">ISS location</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="py-5">
+            <!--This is for the effect-->
+            <!--Had to use z-index: -1 because it interfere with the website-->
+            <div id="ambient" style="overflow:hidden; position:absolute; width:100%; height:100vh; z-index: -1;"></div>
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-row justify-content-center align-items-center gap-3 my-lg-5">
+                    <a href="https://cambriancollege.ca/"><img src="/static/education_img/CambrianLogo.jpg" alt=""></a>
+                    <div class="d-flex flex-column">
+                        <h3>Cambrian College</h3>
+                        <h4><b>Postgraduate Certificate, Cybersecurity</b></h4>
+                        <p>Jan 2023 - Aug 2023</p>
+                        <p>Grade: <b>4.0</b></p>
+                        <p>Skills: Rust (Programming language)</p>
+                        <p>This course has helped me learn about most common hackers attack, social engineering, <br>and how to protect yourself on cyber space</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-center align-items-center gap-3 my-lg-5">
+                    <a href="https://www.hutech.edu.vn/"><img src="/static/education_img/hutech_logo.jpg" alt=""></a>
+                    <div class="d-flex flex-column">
+                        <h3>Hutech</h3>
+                        <h4><b>Engineer's degree, Information Technology</b></h4>
+                        <p>Sep 2017 - Sep 2022</p>
+                        <p>Grade: <b>2.74</b></p>
+                        <p>Skills: Web Development, C, C#, Game development, Software development</p>
+                        <p>My 4 years of university had taught me alot from basic and introduction to <br>software development to more advance knowledge such as software development cycle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Duc Pham 2024</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Effect JS-->
+        <script src = "/static/bvambiant/js/bvambient.js"></script>
+        <!-- Core theme JS-->
+        <script src="/static/script.js"></script>
+    </body>
+</html>
